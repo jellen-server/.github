@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://sandbox.nulable.kr/motd/">
     <picture>
-      <img src="https://avatars.githubusercontent.com/u/261970273?s=400&u=3a6eb42859b2d908ad8e7c54bda2f633f2cf10f8&v=4" width="300" alt="Jellen Server">
+      <img src="https://avatars.githubusercontent.com/u/261970273?s=400&u=3a6eb42859b2d908ad8e7c54bda2f633f2cf10f8&v=4" width="200" alt="Jellen Server">
     </picture>
   </a>
 </p>
