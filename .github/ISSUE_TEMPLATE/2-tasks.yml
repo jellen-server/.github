@@ -1,0 +1,49 @@
+name: 작업 계획서
+description: 새 기능 추가나 기존 기능 개선 등 진행할 작업을 계획할 때 사용해주세요.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이슈를 만든 뒤 오른쪽 사이드바에서 **Type**(기능 / 개선 등)을 지정해주세요.
+  - type: textarea
+    id: goal
+    attributes:
+      label: 목적
+      description: 이 작업이 왜 필요한가요?
+      placeholder: 작업의 배경과 목적을 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 상태
+      description: 기존 기능을 개선하는 작업이라면, 지금 어떻게 동작하고 무엇이 문제인지 적어주세요. (선택)
+      placeholder: 예) 플레이어가 접속할 때마다 인벤토리 데이터를 아이템별 net 메시지로 전송해 접속 직후 렉이 발생함
+    validations:
+      required: false
+  - type: textarea
+    id: changes
+    attributes:
+      label: 변경 내용
+      description: 무엇을 어떻게 만들거나 바꾸려고 하나요?
+      placeholder: 예) 인벤토리 데이터를 하나의 net 메시지로 묶고 util.Compress로 압축해 한 번에 전송하기
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 세부 작업
+      description: 진행해야 할 작업을 모두 나열해주세요.
+      value: |
+        - [ ] 작업 1
+        - [ ] 작업 2
+        - [ ] 작업 3
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: 추가 내용
+      description: 더 설명할 내용이 있다면 적어주세요. (선택)
+    validations:
+      required: false

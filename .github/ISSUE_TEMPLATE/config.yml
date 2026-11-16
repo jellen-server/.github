@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 질문 및 문의
+    url: https://github.com/orgs/jellen-server/discussions/categories/q-a
+    about: 사용법 질문이나 기타 문의는 GitHub Discussions에 남겨주세요.
