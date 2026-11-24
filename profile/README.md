@@ -17,7 +17,7 @@
 | 프로젝트   | 설명                              |      상태      | 바로가기                                        |
 | ---------- | --------------------------------- | :------------: | ----------------------------------------------- |
 | **JCore**  | Jellen 서버 중앙 DB 및 API 시스템 | 🟡 Development | [Repo](https://github.com/jellen-server/jcore)  |
-| **Jade** | Jellen 서버 관리자용 웹 대시보드               | 🟡 Development | [Repo](https://github.com/jellen-server/jade) |
+|  **Jade**  | Jellen 서버 관리자용 웹 대시보드   | 🟡 Development | [Repo](https://github.com/jellen-server/jade) |
 | **Jaeger** | 총기 및 무기 애드온               | 🟡 Development | [Repo](https://github.com/jellen-server/jaeger) |
 
 <sub>🟢 Production · 🟠 Pre-release · 🟡 Development · 🔵 Maintenance · ⚪ Archived</sub>
